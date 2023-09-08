@@ -122,19 +122,16 @@ export const testimonialData = {
   ],
 };
 
-export const reservationData = {
-  title: "booking form",
-  subtitle:
-    "Call (800) 123-4567 from 5AM - 11PM daily, or book online with OpenTable.Reservations required for parties of 6 or more.",
-  modelImg: ModelBlackImg,
-  btnText: "make a reservation",
-};
-
 export const newsletterData = {
   title: "We Value Your Input And Believe",
   subtitle: "That Great Ideas Can Come From Anywhere.",
   placeholder: "We Encourage You To Share Your Thoughts",
   btnText: "Send",
+};
+export const socialData = {
+  item: "Follow us",
+
+  index: "Send",
 };
 
 export const footerData = {
@@ -157,13 +154,7 @@ export const footerData = {
     ],
   },
   social: {
-    title: "social network",
-    icons: [
-      { href: "/", icon: <FaYoutube /> },
-      { href: "/", icon: <FaFacebookF /> },
-      { href: "/", icon: <FaInstagram /> },
-      { href: "/", icon: <FaPinterestP /> },
-      { href: "/", icon: <FaDiscord /> },
-    ],
+    title: "Connect With Us",
+    sub: "Follow Us And Get Into The World Of Food",
   },
 };
