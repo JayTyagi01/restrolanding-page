@@ -8,7 +8,7 @@ import { fadeIn } from "../variants";
 const Testimonial = () => {
   const { title, subtitle, slider } = testimonialData;
   return (
-    <section className="bg-testimonial bg-cover bg-no-repeat relative top-[340px] lg:top-[390px] h-[800px] pt-[60px] md:pt-[120px]">
+    <section className="bg-testimonial bg-cover bg-no-repeat relative top-[240px] lg:top-[290px] h-[1000px] pt-[60px] md:pt-[120px]">
       <div className="container mx-auto">
         <motion.div
           variants={fadeIn("up", "tween", 0.2, 1.6)}

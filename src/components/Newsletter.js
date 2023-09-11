@@ -13,9 +13,9 @@ const Newsletter = () => {
           </h3>
           <p>{subtitle}</p>
         </div>
-        <form className="flex felx-col lg:flex-row lg:gap-x-[10px] gap-y-4">
+        <form className="flex flex-col lg:flex-row lg:gap-x-[10px] gap-y-4">
           <input
-            className="input bg-transparent placeholder:font-light placeholder:text-white/20 text-white focus:ring-1 focus:ring-accent border border-white/20 transition-all"
+            className="input bg-transparent placeholder:font-light w-full lg:w-auto placeholder:text-white/20 text-white focus:ring-1 focus:ring-accent border border-white/20 transition-all"
             type="text"
           />
           <button className="btn capitalize w-full lg:max-w-[204px]">

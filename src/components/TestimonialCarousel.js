@@ -19,11 +19,11 @@ const TestimonialCarousel = ({ slider }) => {
             <div className="text-lg mb-9 lg:text-2xl leading-snug">
               {message}
             </div>
+            <div className="font-bold text-[22px] text-white">{name}</div>
+            <div font-medium>{occupation}</div>
             <div className="max-w-[70px] lg:max-w-[100px] mx-auto mb-3">
               <img src={image} alt="" />
             </div>
-            <div className="font-bold text-[22px] text-white">{name}</div>
-            <div font-medium>{occupation}</div>
           </div>
         );
       })}

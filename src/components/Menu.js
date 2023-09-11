@@ -6,9 +6,9 @@ import { fadeIn, staggerContainer } from "../variants";
 const Menu = () => {
   const { title, subtitle, menuItems, btnText } = menuData;
   return (
-    <section className=" min-h-[780px]">
-      <div className="h-[780px] bg-menu absolute w-full max-w-[1800px]"></div>
-      <div className="relative  top-72 lg:top-52">
+    <section className="min-h-[580px]">
+      <div className="h-full bg-repeat-round bg-menu absolute w-full max-w-[1800px]"></div>
+      <div className="relative  top-32 lg:top-32">
         <motion.div
           variants={staggerContainer}
           initial="hidden"
@@ -46,22 +46,18 @@ const Menu = () => {
           duration: 1.6,
           ease: "easeOut",
         }}
-        className=" relative top-80 lg:top-96"
+        className=" relative top-40 lg:top-56"
       >
         <div className="container mx-auto">
           <div className="lg:-mt-24 min-h-[590px] z-30 mb-8 md:mb-4 xl:mb-16">
-            <div className="grid grid-cols-1 lg:grid-cols-4 min-h-[590px]">
+            <div className="grid grid-cols-1 lg:grid-cols-4 min-h-[590px] gap-5">
               {menuItems.map((item, index) => {
                 const { image, name, price, description } = item;
                 return (
                   <div key={index}>
                     <div className="flex flex-row lg:flex-col h-full">
                       <div
-                        className={`w-[45%] md:w-auto ${
-                          index === 1 || index === 3
-                            ? "lg:order-1"
-                            : "order-none"
-                        }`}
+                        className={`w-[45%] md:aspect-square lg:aspect-auto lg:w-full`}
                       >
                         <img src={image} alt="" />
                       </div>

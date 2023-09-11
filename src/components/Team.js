@@ -5,7 +5,7 @@ import { fadeIn } from "../variants";
 const Team = () => {
   const { pretitle, title, sub1, sub2, name, occupation, chefImg } = teamData;
   return (
-    <section className="relative top-96 lg:top-[480px] min-h-[720px] ">
+    <section className="relative top-52 lg:top-[290px] min-h-[420px] ">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row lg:gap-x-[120px] items-center lg:items-start">
           <motion.div

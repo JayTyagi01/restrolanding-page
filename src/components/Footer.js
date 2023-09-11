@@ -10,7 +10,7 @@ import { fadeIn, staggerContainer } from "../variants";
 const Footer = () => {
   const { contact, hours, social } = footerData;
   return (
-    <footer className="relative top-96 bg-dark lg:bg-transparent lg:min-h-[620px] lg:bg-footer lg:bg-center lg:bg-no-repeat pt-20">
+    <footer className="relative bg-dark lg:bg-transparent lg:min-h-[620px] lg:bg-footer lg:bg-center lg:bg-no-repeat pt-20">
       <div className="container mx-auto h-full">
         <div className="h-full flex flex-col gap-y-12">
           <div>
